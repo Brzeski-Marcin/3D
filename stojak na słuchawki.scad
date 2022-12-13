@@ -2,25 +2,23 @@ $fn=100;
 
 difference()
 {
-    cube([30, 40, 10]);
-    translate([15, 15, -1])
+    cube([32, 38, 15]);
+    translate([16, 16, -1])
     {
-        cylinder(12, 12, 12);
+        cylinder(17, 11, 11);
     }  
-    translate([3, 15, -1])
+    translate([5.1, 15, -1])
     {
-        cube([24, 26, 12]);
+        cube([21.8, 24, 17]);
     }  
-    translate([-1, 35, 5])
+    translate([-1, 32, 7.5])
     {
         rotate([0, 90, 0])
         {
-            cylinder(32, 3, 3);
+            cylinder(35, 3, 3);
         }    
     }
 }
-
-
 
 
 
